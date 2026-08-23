@@ -1,1 +1,1 @@
-# news_pulse
+News Pulse
