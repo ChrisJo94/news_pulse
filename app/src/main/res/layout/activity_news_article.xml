@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".News_Article"
+    android:fitsSystemWindows="true"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/img_cat"
+        android:scaleType="centerCrop"
+        android:id="@+id/news_img"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/news_img"
+        android:layout_weight="22"
+        android:id="@+id/text_box"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/title_content"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/news_img"
+            android:layout_weight="1.3"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                android:id="@+id/headline"
+                android:textSize="22dp"
+
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_below="@id/headline"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/news_content"
+                android:maxLength="527"
+                android:text="Hello Everyone"
+                android:layout_marginTop="20dp"
+
+                />
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title_content"
+            android:layout_weight="8"
+            android:id="@+id/news_source"
+
+
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:id="@+id/read_img"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Read More"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF"
+                    android:shadowColor="#5F5F5F"
+                    android:id="@+id/read_more"
+                    android:textStyle="bold"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/read_more"
+                    android:id="@+id/source_name"
+                    android:text="Google News"
+                    android:textColor="#FFFFFF"
+                    android:shadowColor="#5F5F5F"
+                    android:textSize="12dp"
+
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

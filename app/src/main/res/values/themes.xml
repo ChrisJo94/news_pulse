@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.News_app_2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/news_red</item>
+
+    </style>
+
+    <style name="splash_theme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+
+
+    <style name="icon_button" parent="Widget.Material3.Button.IconButton.Filled.Tonal">
+        <item name="iconTint">@color/white</item>
+        <!--        <item name="colorOnContainer">@color/news_red</item>-->
+    </style>
+
+
+    <style name="button_red" parent="ThemeOverlay.AppCompat">
+
+        <item name="colorAccent">@color/news_red</item>
+
+    </style>
+
+
+
+    <style name="Theme.News_app_2" parent="Base.Theme.News_app_2" />
+
+
+</resources>
