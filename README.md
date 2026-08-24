@@ -10,7 +10,7 @@
 </ul>
 
 <h3>Screenshots: </h3>
-<table style="margin-left: auto; margin-right: auto;">
+<table align="center">
         <tr>
             <td><img src="./screenshots/general.jpeg" alt="" width="200"></td>
             <td><img src="./screenshots/business.jpeg" alt="" width="200"></td>
