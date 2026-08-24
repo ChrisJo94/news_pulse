@@ -1,6 +1,6 @@
 <h1> News Pulse📰 </h1> 
 <h3>Overview : </h3>
-<p> Java-based android news app with a simple user friendly interface that helps users stay updated with latest headlines from around the world </p>
+<p> Java-based android news app with a simple user-friendly interface that helps users stay updated with latest headlines from around the world </p>
 <h3>Features: </h3>
 <ul>
   <li>Display News in various categories</li>
@@ -28,3 +28,14 @@
             <td><img src="./screenshots/log out.jpeg" alt="" width="200"></td>
         </tr>
 </table>
+
+<h3>Technologies Used: </h3>
+<ul>
+  <li>Java</li>
+  <li>XML</li>
+  <li>Android Studio</li>
+  <li>Material Design</li>
+  <li>Firebase Authentication</li>
+  <li>Third party libraries like <a href="https://github.com/lysine-dev/retrofit">retrofit</a>, <a href="https://github.com/bumptech/glide">glide</a></li>
+  <li><a href="https://gnews.io/">GNews API</a></li>- Used to fetch new articles
+</ul>
