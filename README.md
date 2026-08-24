@@ -12,7 +12,7 @@
 <h3>Screenshots: </h3>
 <table style="margin-left: auto; margin-right: auto;">
         <tr>
-            <td><img src="./general.jpeg" alt="" width="200"></td>
+            <td><img src="./screenshots/general.jpeg" alt="" width="200"></td>
             <td><img src="./business.jpeg" alt="" width="200"></td>
         </tr>
         <tr>
