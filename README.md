@@ -13,18 +13,18 @@
 <table style="margin-left: auto; margin-right: auto;">
         <tr>
             <td><img src="./screenshots/general.jpeg" alt="" width="200"></td>
-            <td><img src="./business.jpeg" alt="" width="200"></td>
+            <td><img src="./screenshots/business.jpeg" alt="" width="200"></td>
         </tr>
         <tr>
-            <td><img src="./news article.jpeg" alt="" width="200"></td>
-            <td><img src="./news source.jpeg" alt="" width="200"></td>
+            <td><img src="./screenshots/news article.jpeg" alt="" width="200"></td>
+            <td><img src="./screenshots/news source.jpeg" alt="" width="200"></td>
         </tr>
         <tr>
-            <td><img src="./send otp.jpeg" alt="" width="200"></td>
-            <td><img src="./enter otp.jpeg" alt="" width="200"></td>
+            <td><img src="./screenshots/send otp.jpeg" alt="" width="200"></td>
+            <td><img src="./screenshots/enter otp.jpeg" alt="" width="200"></td>
         </tr>
         <tr>
-            <td><img src="./sports.jpeg" alt="" width="200"></td>
-            <td><img src="./log out.jpeg" alt="" width="200"></td>
+            <td><img src="./screenshots/sports.jpeg" alt="" width="200"></td>
+            <td><img src="./screenshots/log out.jpeg" alt="" width="200"></td>
         </tr>
 </table>
