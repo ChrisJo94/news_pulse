@@ -36,6 +36,6 @@
   <li>Android Studio</li>
   <li>Material Design</li>
   <li>Firebase Authentication</li>
-  <li>Third party libraries like <a href="https://github.com/lysine-dev/retrofit">retrofit</a>, <a href="https://github.com/bumptech/glide">glide</a></li>
-  <li><a href="https://gnews.io/">GNews API</a></li>- Used to fetch new articles
+  <li>Third party libraries like <a href="https://github.com/lysine-dev/retrofit">retrofit</a>, <a href="https://github.com/bumptech/glide">glide</a>.</li>
+  <li><a href="https://gnews.io/">GNews API</a>- Used to fetch new articles</li>
 </ul>
